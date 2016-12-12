@@ -1,0 +1,71 @@
+body {
+
+background-color: white;
+
+}
+
+.bouton {
+
+height: 40px;
+
+width: 40px;
+
+}
+
+.bouton2 {
+
+height: 30px;
+
+width: 30px;
+
+}
+
+.menuright {
+
+float: right;
+
+margin-bottom: 20px;
+
+}
+
+.btn {
+
+background-color: white;
+
+font-size: 13px;
+
+}
+
+.imagecentrale  {
+
+text-align: center;
+
+height:100%;
+
+width:100%;
+
+}
+
+.cent {
+
+height: 100%;
+
+width: 100%;
+
+}
+
+.buttonhove {
+
+background-color: #C5D8DE;
+
+}
+
+nav {
+
+background-color: #C5D8DE;
+
+font-weight: bold;
+
+font-size: 12px;
+
+}

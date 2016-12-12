@@ -1,0 +1,15 @@
+.colonne1 {
+	background-color: red;
+}
+
+.colonne2 {
+	background-color: green;
+}
+
+.colonne3 {
+	background-color: blue;
+}
+
+.container {
+	width: 100%;
+}

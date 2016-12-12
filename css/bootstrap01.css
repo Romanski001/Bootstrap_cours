@@ -1,0 +1,19 @@
+body {
+	background-color: beige;
+}
+
+.container {
+	background-color: white;
+}
+
+/*.bg-aliceblue {
+	background-color: aliceblue;
+}*/
+
+section {
+	background-color: aliceblue;
+}
+
+section .container {
+	background-color: aliceblue;
+} /*autre méthode */

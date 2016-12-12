@@ -1,0 +1,17 @@
+* {
+	margin: 0;
+
+}
+
+header {
+	background-color: #3B5998;
+}
+
+#logo {
+	background-color: #3B5998;
+	width: 10%;
+}
+
+a {
+	color: grey;
+}

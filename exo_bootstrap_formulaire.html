@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Exo bootstrap avec formulaire</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css" />
+		<link rel="stylesheet" href="css/exo_bootstrap_formulaire.css" />
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="colonne1 col-md-6">Colonne 1</div>
+				<div class="colonne2 col-md-3">Colonne 2</div>
+				<div class="colonne3 col-md-3">Colonne 3</div>
+			</div>	
+		</div>
+		<!-- section 1 -->
+		<div class="container">
+			<div class="row">
+				<div class="colonne_1 center-block col-md-3 col-sm-4">
+					<p>Colonne 1</p>
+					<form action="" method="post" enctype="multipart/form-data">
+						<div>
+							<label>Nom</label>
+						</div>
+						<div>
+							<input type="text" name="nom" placeholder="votre nom" />
+						</div>
+						<div>
+							<label>Prénom</label>
+						</div>
+						<div>
+							<input type="text" name="prenom" placeholder="votre prénom" />
+						</div>
+						<div>
+							<label>Adresse</label>
+						</div>
+						<div>
+							<input type="text" name="adresse" placeholder="votre adresse" />
+						</div>			
+						<div>
+							<label>Code postal</label>
+						</div>
+						<div>
+							<input type="text" name="code postal" placeholder="votre code postal" />
+						</div>
+						<div>
+							<label>Ville</label>
+						</div>
+						<div>
+							<input type="text" name="ville" placeholder="votre ville" />
+						</div>
+						<div>
+							<button>Valider vos réponses</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- section 2 -->
+		<div class="container">
+			<div class="row">
+				<div class="colonne_1 center-block col-md-3 col-sm-4">
+					<p>Colonne 1</p>
+					<form action="" method="post" enctype="multipart/form-data">
+						<div>
+							<label>Nom</label>
+						</div>
+						<div>
+							<input type="text" name="nom" placeholder="votre nom" required="" />
+						</div>
+						<div>
+							<label>Prénom</label>
+						</div>
+						<div>
+							<input type="text" name="prenom" placeholder="votre prénom" required="" />
+						</div>
+						<div>
+							<label>Adresse</label>
+						</div>
+						<div>
+							<input type="text" name="adresse" placeholder="votre adresse" required="" />
+						</div>			
+						<div>
+							<label>Code postal</label>
+						</div>
+						<div>
+							<input type="text" name="code postal" placeholder="votre code postal" pattern="code postal|62680"/>
+						</div>
+						<div>
+							<label>Ville</label>
+						</div>
+						<div>
+							<input type="text" name="ville" placeholder="votre ville" pattern="Méricourt|Billy" />
+						</div>
+						<div>
+							<button>Valider vos réponses</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+		<!-- section 3 -->
+		<div class="container">
+			<div class="row">
+				<div class="colonne_1 center-block">
+					<p>Colonne 1</p>
+					<form action="" method="post" enctype="multipart/form-data">
+						<div class="col-sm-2 pull-right">
+							<div>
+								<label>Nom</label>
+							</div>
+							<div>
+								<label>Prénom</label>
+							</div>
+							<div>
+								<label>Adresse</label>
+							</div>
+							<div>
+								<label>Code postal</label>
+							</div>
+							<div>
+								<label>Ville</label>
+							</div>
+						</div>
+						<div class="col-sm-10">
+							<div>
+								<input type="text" name="nom" placeholder="votre nom" />
+							</div>
+							<div>
+							
+							</div>
+							<div>
+								<input type="text" name="prenom" placeholder="votre prénom" />
+							</div>
+							<div>
+							
+							</div>
+							<div>
+								<input type="text" name="adresse" placeholder="votre adresse" />
+							</div>			
+							<div>
+							
+							</div>
+							<div>
+								<input type="text" name="code postal" placeholder="votre code postal" />
+							</div>
+							<div>
+							
+							</div>
+							<div>
+								<input type="text" name="ville" placeholder="votre ville" />
+							</div>
+							<div>
+								<button>Valider vos réponses</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>	
+		<!-- section 4 -->
+		<div class="container">
+			<div class="row">
+				<div class="selection">
+					<form action="" method="post" enctype="multipart/form-data">
+						<div>
+							<label>Date du jour</label>
+						</div>
+						<div>
+							<select name="date_du_jour" required="">
+								<option value="">Choisissez votre date</option>
+								<option value="">1</option>
+								<option value="">2</option>
+								<option value="">3</option>
+								<option value="">4</option>
+								<option value="">5</option>
+								<option value="">6</option>
+								<option value="">7</option>
+								<option value="">8</option>
+								<option value="">9</option>
+								<option value="">10</option>
+								<option value="">11</option>
+								<option value="">12</option>
+								<option value="">13</option>
+								<option value="">14</option>
+								<option value="">15</option>
+								<option value="">16</option>
+								<option value="">17</option>
+								<option value="">18</option>
+								<option value="">19</option>
+								<option value="">20</option>
+								<option value="">21</option>
+								<option value="">22</option>
+								<option value="">23</option>
+								<option value="">24</option>
+								<option value="">25</option>
+								<option value="">26</option>
+								<option value="">27</option>
+								<option value="">28</option>
+								<option value="">29</option>
+								<option value="">30</option>
+								<option value="">31</option>
+							</select>
+						</div>
+						<div>
+							<label>Mois</label>
+						</div>
+						<div>
+							<select name="mois" required="">
+								<option value="">Choisissez votre mois</option>
+								<option value="">Janvier</option>
+								<option value="">Février</option>
+								<option value="">Mars</option>
+								<option value="">Avril</option>
+								<option value="">Mai</option>
+								<option value="">Juin</option>
+								<option value="">Juillet</option>
+								<option value="">Août</option>
+								<option value="">Septembre</option>
+								<option value="">Octobre</option>
+								<option value="">Novembre</option>
+								<option value="">Décembre</option>
+							</select> 
+						</div>
+						<div>
+							<label>Heure</label>
+						</div>
+						<div>
+							<select name="heure" required="">
+								<option value="">Choisissez votre heure</option>
+								<option value="">0</option>
+								<option value="">1</option>
+								<option value="">2</option>
+								<option value="">3</option>
+								<option value="">4</option>
+								<option value="">5</option>
+								<option value="">6</option>
+								<option value="">7</option>
+								<option value="">8</option>
+								<option value="">9</option>
+								<option value="">10</option>
+								<option value="">11</option>
+								<option value="">12</option>
+								<option value="">13</option>
+								<option value="">14</option>
+								<option value="">15</option>
+								<option value="">16</option>
+								<option value="">17</option>
+								<option value="">18</option>
+								<option value="">19</option>
+								<option value="">20</option>
+								<option value="">21</option>
+								<option value="">22</option>
+								<option value="">23</option>
+							</select>
+						</div>
+						<div>
+							<label>Minutes</label>
+						</div>
+						<div>
+							<select name="minutes" required="">
+								<option value="">Choisissez votre minute</option>
+								<option value="">00</option>
+								<option value="">01</option>
+								<option value="">02</option>
+								<option value="">03</option>
+								<option value="">04</option>
+								<option value="">05</option>
+								<option value="">06</option>
+								<option value="">07</option>
+								<option value="">08</option>
+								<option value="">09</option>
+								<option value="">10</option>
+								<option value="">11</option>
+								<option value="">12</option>
+								<option value="">13</option>
+								<option value="">14</option>
+								<option value="">15</option>
+								<option value="">16</option>
+								<option value="">17</option>
+								<option value="">18</option>
+								<option value="">19</option>
+								<option value="">20</option>
+								<option value="">21</option>
+								<option value="">22</option>
+								<option value="">23</option>
+								<option value="">24</option>
+								<option value="">25</option>
+								<option value="">26</option>
+								<option value="">27</option>
+								<option value="">28</option>
+								<option value="">29</option>
+								<option value="">30</option>
+								<option value="">31</option>
+								<option value="">32</option>
+								<option value="">33</option>
+								<option value="">34</option>
+								<option value="">35</option>
+								<option value="">36</option>
+								<option value="">37</option>
+								<option value="">38</option>
+								<option value="">39</option>
+								<option value="">40</option>
+								<option value="">41</option>
+								<option value="">42</option>
+								<option value="">43</option>
+								<option value="">44</option>
+								<option value="">45</option>
+								<option value="">46</option>
+								<option value="">47</option>
+								<option value="">48</option>
+								<option value="">49</option>
+								<option value="">50</option>
+								<option value="">51</option>
+								<option value="">52</option>
+								<option value="">53</option>
+								<option value="">54</option>
+								<option value="">55</option>
+								<option value="">56</option>
+								<option value="">57</option>
+								<option value="">58</option>
+								<option value="">59</option>						
+							</select>
+						</div>
+						<button>Envoyez vos données</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<form action="" method="post" enctype="multipart/form-data">
+					<input type="text" name="login" placeholder="votre login" />
+					<input type="text" name="password" placeholder="votre mot de passe" />
+					<input type="checkbox" name="checkbox">
+					<label>Se souvenir de moi</label>
+					<button>Valider vos données</button>
+				</form>
+			</div>
+		</div>		
+	</body>
+<html>
