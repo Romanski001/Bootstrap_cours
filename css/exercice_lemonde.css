@@ -1,0 +1,192 @@
+.barre_nav {
+	background: linear-gradient(#2d3841, #010c16);
+	width: 100%;
+	display: block;
+	float: left;
+	padding: 0px 17px;
+}
+
+.barre_nav a {
+	text-decoration: none;
+	border-left: 1px solid #626a72;
+	/*border-right: 1px solid #16212c;*/
+	color: white;
+	padding-left: 5px;
+}
+
+.barre {
+	margin-top: 20px;
+	padding-left: 79px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.menu {
+	padding-left: 45px;
+	text-transform: uppercase;
+}
+
+.menu li {
+	display: inline;
+	/*border-top-width: 3px;
+	border-top-style: solid;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-style: solid;*/
+}
+
+.menu a {
+	color: black;
+	font-weight: bold;
+	/*border-top-width: 3px;
+	border-top-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;*/
+	background-color: beige;
+}
+
+.menuderoulant {
+	background: linear-gradient(#2d3841, #010c16);
+}
+
+.yellow {
+	background-color: gold;
+	color: black;
+}
+
+.icone_accueil {
+	width: 17px;
+}
+
+#yellow {
+	background-color: gold;
+}
+
+#accueil {
+	border-top-width: 4px;
+	border-top-color: #16212c;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+#international {
+	border-top-width: 4px;
+	border-top-color: #026B9C;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+}
+
+#politique {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #190A52;
+}
+
+#societe {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #AA0202;
+}
+
+#eco {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #CB2626;
+}
+
+#culture {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #C20447 ;
+}
+
+#idees {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #2E3942;
+}
+
+#planete {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #298028 ;
+}
+
+#sport {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #7EA640;
+}
+
+#sciences {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #0A908B;
+}
+
+#pixels {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #00825B;
+}
+
+#campus {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #FF9E64 ;
+}
+
+#mag {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: #1E2831 ;
+}
+
+#yellow {
+	border-top-width: 4px;
+	border-style: solid;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-top-color: yellow ;
+}

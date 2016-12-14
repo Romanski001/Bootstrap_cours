@@ -68,6 +68,7 @@
 						</div>
 						<div>
 							<input type="text" name="nom" placeholder="votre nom" required="" />
+							<span class="help-block">Ce champ doit être renseigné</span>
 						</div>
 						<div>
 							<label>Prénom</label>
@@ -128,25 +129,13 @@
 								<input type="text" name="nom" placeholder="votre nom" />
 							</div>
 							<div>
-							
-							</div>
-							<div>
 								<input type="text" name="prenom" placeholder="votre prénom" />
-							</div>
-							<div>
-							
 							</div>
 							<div>
 								<input type="text" name="adresse" placeholder="votre adresse" />
 							</div>			
 							<div>
-							
-							</div>
-							<div>
 								<input type="text" name="code postal" placeholder="votre code postal" />
-							</div>
-							<div>
-							
 							</div>
 							<div>
 								<input type="text" name="ville" placeholder="votre ville" />
@@ -164,10 +153,10 @@
 			<div class="row">
 				<div class="selection">
 					<form action="" method="post" enctype="multipart/form-data">
-						<div>
+						<div class="form-control">
 							<label>Date du jour</label>
 						</div>
-						<div>
+						<div class="form-control">
 							<select name="date_du_jour" required="">
 								<option value="">Choisissez votre date</option>
 								<option value="">1</option>
@@ -203,10 +192,10 @@
 								<option value="">31</option>
 							</select>
 						</div>
-						<div>
+						<div class="form-control">
 							<label>Mois</label>
 						</div>
-						<div>
+						<div class="form-control">
 							<select name="mois" required="">
 								<option value="">Choisissez votre mois</option>
 								<option value="">Janvier</option>
@@ -223,10 +212,10 @@
 								<option value="">Décembre</option>
 							</select> 
 						</div>
-						<div>
+						<div class="form-control">
 							<label>Heure</label>
 						</div>
-						<div>
+						<div class="form-control">
 							<select name="heure" required="">
 								<option value="">Choisissez votre heure</option>
 								<option value="">0</option>
@@ -255,10 +244,10 @@
 								<option value="">23</option>
 							</select>
 						</div>
-						<div>
+						<div class="form-control">
 							<label>Minutes</label>
 						</div>
-						<div>
+						<div class="form-control">
 							<select name="minutes" required="">
 								<option value="">Choisissez votre minute</option>
 								<option value="">00</option>
@@ -328,8 +317,10 @@
 				</div>
 			</div>
 		</div>
+		<!-- section 5 -->
 		<div class="container">
 			<div class="row">
+				<br />
 				<form action="" method="post" enctype="multipart/form-data">
 					<input type="text" name="login" placeholder="votre login" />
 					<input type="text" name="password" placeholder="votre mot de passe" />
