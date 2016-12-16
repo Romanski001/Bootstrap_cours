@@ -46,10 +46,11 @@ ul {
 	border-bottom-width: 1px;
 	border-bottom-style: solid;*/
 	background-color: beige;
+	display: inline-block;
 }
 
 .menuderoulant {
-	background: linear-gradient(#2d3841, #010c16);
+	background-color: white;
 }
 
 .yellow {
@@ -61,132 +62,83 @@ ul {
 	width: 17px;
 }
 
-#yellow {
-	background-color: gold;
-}
 
 #accueil {
-	border-top-width: 4px;
 	border-top-color: #16212c;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 }
 
 #international {
-	border-top-width: 4px;
 	border-top-color: #026B9C;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 }
 
 #politique {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #190A52;
 }
 
 #societe {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #AA0202;
 }
 
 #eco {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #CB2626;
 }
 
 #culture {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #C20447 ;
 }
 
 #idees {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #2E3942;
 }
 
 #planete {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #298028 ;
 }
 
 #sport {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
-	border-top-color: #7EA640;
+	border-top-color: /*#7EA640*/ #6FAA12;
 }
 
 #sciences {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #0A908B;
 }
 
 #pixels {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #00825B;
 }
 
 #campus {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #FF9E64 ;
 }
 
 #mag {
-	border-top-width: 4px;
-	border-style: solid;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
 	border-top-color: #1E2831 ;
 }
 
 #yellow {
-	border-top-width: 4px;
+	border-top-color: gold ;
+	background-color: gold;
+}
+
+#accueil, #international, #politique, #societe, #eco, #culture, #idees, #planete, #sport, #sciences, #pixels, #campus, #mag, #yellow {
+	border-top-width: 4px;	
 	border-style: solid;
 	border-left: none;
 	border-right: none;
 	border-bottom: none;
-	border-top-color: yellow ;
+}
+
+.barre_inferieur {
+	background-color: black;
+	padding-left: 179px;
+}
+
+#encemoment {
+	background-color: red;
+	color: white;
+	text-transform: uppercase;
+}
+
+ul.barre_inferieur a {
+	color: white;
 }
