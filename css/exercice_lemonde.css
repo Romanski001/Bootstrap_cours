@@ -84,7 +84,7 @@ ul {
 }
 
 #culture {
-	border-top-color: #C20447 ;
+	border-top-color: #C20447;
 }
 
 #idees {
@@ -92,7 +92,7 @@ ul {
 }
 
 #planete {
-	border-top-color: #298028 ;
+	border-top-color: #298028;
 }
 
 #sport {
@@ -108,15 +108,15 @@ ul {
 }
 
 #campus {
-	border-top-color: #FF9E64 ;
+	border-top-color: #FF9E64;
 }
 
 #mag {
-	border-top-color: #1E2831 ;
+	border-top-color: #1E2831;
 }
 
 #yellow {
-	border-top-color: gold ;
+	border-top-color: gold;
 	background-color: gold;
 }
 
@@ -130,7 +130,7 @@ ul {
 
 .barre_inferieur {
 	background-color: black;
-	padding-left: 179px;
+	padding-left: 79px;
 }
 
 #encemoment {
@@ -144,3 +144,10 @@ ul.barre_inferieur a {
 	color: white;
 }
 
+ul.barre_inferieur a:hover {
+	color: red;
+}
+
+.main_news, .encontinu {
+	padding-left: 79px;
+}
